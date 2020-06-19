@@ -1,9 +1,9 @@
 params = {}
 params['apikey'] = 'xxxxxxxx'
+params['project_id'] = "xxxxxxxx"
 params['token_url'] = "https://iam.cloud.ibm.com/oidc/token"
 params['token_data'] = "apikey=" + params['apikey'] + "&grant_type=urn:ibm:params:oauth:grant-type:apikey"
 params['token_headers'] = { "Content-Type" : "application/x-www-form-urlencoded" }
-params['project_id'] = "xxxxxxxx"
 params['url'] = "https://api.dataplatform.cloud.ibm.com"
 
 import requests
