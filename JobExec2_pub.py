@@ -41,8 +41,8 @@ response = requests.post(url+"/v2/jobs/"+job_id+"/runs?project_id="+project_id, 
 
 # Job run id
 job_run_id = response['metadata']['asset_id']
-job_run_id
 
+#Jobの終了を確認
 import time
 retry_times=12
 retry_sleep=3
